@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=StatusBox
+comment0.text=\r\n\ L\u1EDBp\ StatusBox\ \u0111\u1EA1i\ di\u1EC7n\ cho\ th\u00E0nh\ ph\u1EA7n\ hi\u1EC3n\ th\u1ECB\ thanh\ tr\u1EA1ng\ th\u00E1i\ (Thanh\ m\u00E1u/HP\ Bar).\r\n\ Ch\u1ECBu\ tr\u00E1ch\ nhi\u1EC7m\ \u0111\u1ED3ng\ b\u1ED9\ d\u1EEF\ li\u1EC7u\ ch\u1EC9\ s\u1ED1\ sinh\ l\u1EF1c\ th\u1EF1c\ t\u1EBF\ c\u1EE7a\ nh\u00E2n\ v\u1EADt\ v\u00E0\ k\u1EBB\ \u0111\u1ECBch,\r\n\ th\u1EF1c\ hi\u1EC7n\ t\u00EDnh\ to\u00E1n\ t\u1EF7\ l\u1EC7\ h\u00ECnh\ h\u1ECDc\ ph\u1EA7n\ tr\u0103m\ v\u00E0\ v\u1EBD\ \u0111\u1ED3\ h\u1ECDa\ \u0111\u1ED9ng\ t\u01B0\u01A1ng\ \u1EE9ng\ (Dynamic\ Rendering).\r\n
+comment1.params=name\ maxHp\ isHero
+comment1.target=StatusBox(java.lang.String,\ int,\ boolean)
+comment1.text=\r\n\ H\u00E0m\ kh\u1EDFi\ t\u1EA1o\ (Constructor)\ c\u1EE7a\ l\u1EDBp\ StatusBox.\r\n\ @param\ name\ T\u00EAn\ \u0111\u1ECBnh\ danh\ hi\u1EC3n\ th\u1ECB\ tr\u00EAn\ thanh\ tr\u1EA1ng\ th\u00E1i\r\n\ @param\ maxHp\ Ng\u01B0\u1EE1ng\ sinh\ l\u1EF1c\ t\u1ED1i\ \u0111a\ kh\u1EDFi\ t\u1EA1o\ ban\ \u0111\u1EA7u\r\n\ @param\ isHero\ X\u00E1c\ \u0111\u1ECBnh\ lo\u1EA1i\ \u0111\u1ED1i\ t\u01B0\u1EE3ng\ \u0111\u1EC3\ c\u1EA5u\ h\u00ECnh\ m\u00E0u\ s\u1EAFc\ giao\ di\u1EC7n\ t\u01B0\u01A1ng\ th\u00EDch\r\n
+comment2.params=currentHp
+comment2.target=void\ updateBar(int)
+comment2.text=\r\n\ H\u00E0m\ x\u1EED\ l\u00FD\ c\u1EADp\ nh\u1EADt\ \u0111\u1ED3\ h\u1ECDa\ hi\u1EC3n\ th\u1ECB\ sinh\ l\u1EF1c\ (HP\ Bar\ Rendering\ UI).\r\n\ Th\u1EF1c\ hi\u1EC7n\ c\u01A1\ ch\u1EBF\ \u0111\u1ED3ng\ b\u1ED9\ h\u00F3a\ m\u1ED1c\ MaxHP\ \u0111\u1ED9ng\ t\u1EEB\ th\u1EBF\ gi\u1EDBi\ tr\u1EADn\ \u0111\u1EA5u,\ t\u00EDnh\ to\u00E1n\ \u0111\u1ED9\ d\u00E0i\ h\u00ECnh\ h\u1ECDc\r\n\ theo\ t\u1EF7\ l\u1EC7\ ph\u1EA7n\ tr\u0103m\ v\u00E0\ v\u1EBD\ c\u00E1c\ l\u1EDBp\ \u0111\u1ED3\ h\u1ECDa\ bao\ ph\u1EE7\ (Khung\ n\u1EC1n,\ T\u00EAn,\ Thanh\ m\u00E0u,\ Vi\u1EC1n).\r\n\ @param\ currentHp\ L\u01B0\u1EE3ng\ sinh\ l\u1EF1c\ hi\u1EC7n\ t\u1EA1i\ truy\u1EC1n\ v\u00E0o\ t\u1EEB\ th\u1EF1c\ th\u1EC3\ s\u1EDF\ h\u1EEFu\r\n
+numComments=3
