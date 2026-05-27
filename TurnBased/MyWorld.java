@@ -34,9 +34,9 @@ public class MyWorld extends World
         background.scale(1280, 720);
         setBackground(background);
         
-        // Khởi tạo thực thể nhân vật chính với các thông số thuộc tính gốc (500 HP, 25 ATK)
+        // Khởi tạo thực thể nhân vật chính với các thông số thuộc tính gốc (400 HP, 25 ATK)
         myHero = new Hero();
-        myHero.setMaxHp(500);
+        myHero.setMaxHp(400);
         myHero.setAtk(25);
         addObject(myHero, 650, 500);
         
@@ -224,7 +224,7 @@ public class MyWorld extends World
      * Tạo dựng khung hộp thông số hiển thị sinh lực và nạp các thực thể nút bấm tương tác vật lý.
      */
     public void prepareUI() {
-        heroHPBox = new StatusBox("HIỆP SĨ KNIGHT", 500, true);
+        heroHPBox = new StatusBox("HIỆP SĨ KNIGHT", 400, true);
         addObject(heroHPBox, 200, 600);
         ActionMenu menu = new ActionMenu();
         addObject(menu, 1100, 580);
