@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\r\n\ L\u1EDBp\ Button\ \u0111\u1EA1i\ di\u1EC7n\ cho\ c\u00E1c\ th\u00E0nh\ ph\u1EA7n\ n\u00FAt\ b\u1EA5m\ t\u01B0\u01A1ng\ t\u00E1c\ tr\u00EAn\ giao\ di\u1EC7n\ ng\u01B0\u1EDDi\ d\u00F9ng\ (UI).\r\n\ X\u1EED\ l\u00FD\ s\u1EF1\ ki\u1EC7n\ nh\u1EA5p\ chu\u1ED9t\ (Click\ Event)\ v\u00E0\ \u0111i\u1EC1u\ h\u01B0\u1EDBng\ lu\u1ED3ng\ logic\ x\u1EED\ l\u00FD\ d\u1EF1a\ tr\u00EAn\ \r\n\ ph\u00E2n\ c\u1EA3nh\ hi\u1EC7n\ t\u1EA1i\ c\u1EE7a\ tr\u00F2\ ch\u01A1i\ (Menu\ ch\u00EDnh,\ Tr\u1EADn\ \u0111\u1EA5u,\ ho\u1EB7c\ M\u00E0n\ h\u00ECnh\ k\u1EBFt\ th\u00FAc).\r\n
+comment1.params=text
+comment1.target=Button(java.lang.String)
+comment1.text=\r\n\ H\u00E0m\ kh\u1EDFi\ t\u1EA1o\ (Constructor)\ c\u1EE7a\ \u0111\u1ED1i\ t\u01B0\u1EE3ng\ Button.\r\n\ Th\u1EF1c\ hi\u1EC7n\ thi\u1EBFt\ l\u1EADp\ \u0111\u1ED3\ h\u1ECDa\ h\u1ED9p\ ch\u1EE9a,\ v\u1EBD\ khung\ vi\u1EC1n\ \u0111a\ l\u1EDBp\ v\u00E0\ ghi\ v\u0103n\ b\u1EA3n\ \u0111\u1ECBnh\ danh\ n\u00FAt.\r\n\ @param\ text\ Chu\u1ED7i\ k\u00FD\ t\u1EF1\ hi\u1EC3n\ th\u1ECB\ tr\u00EAn\ b\u1EC1\ m\u1EB7t\ n\u00FAt\ b\u1EA5m\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ V\u00F2ng\ l\u1EB7p\ Act\ v\u1EADn\ h\u00E0nh\ li\u00EAn\ t\u1EE5c\ \u0111\u1EC3\ l\u1EAFng\ nghe\ v\u00E0\ ti\u1EBFp\ nh\u1EADn\ t\u01B0\u01A1ng\ t\u00E1c\ nh\u1EA5p\ chu\u1ED9t\ t\u1EEB\ ng\u01B0\u1EDDi\ d\u00F9ng.\r\n\ Ph\u00E2n\ t\u00E1ch\ lu\u1ED3ng\ x\u1EED\ l\u00FD\ h\u00E0nh\ \u0111\u1ED9ng\ d\u1EF1a\ tr\u00EAn\ vi\u1EC7c\ ki\u1EC3m\ tra\ ki\u1EC3u\ th\u1EF1c\ th\u1EC3\ l\u1EDBp\ World\ hi\u1EC7n\ t\u1EA1i\ (instanceof).\r\n
+comment3.params=world
+comment3.target=void\ finishTurn(MyWorld)
+comment3.text=\r\n\ H\u00E0m\ ph\u1EE5\ tr\u1EE3\ d\u1ECDn\ d\u1EB9p\ tr\u1EA1ng\ th\u00E1i\ v\u00E0\ k\u1EBFt\ th\u00FAc\ chu\ k\u1EF3\ l\u01B0\u1EE3t\ \u0111i\ c\u1EE7a\ Hero.\r\n\ Th\u1EF1c\ hi\u1EC7n\ h\u1EE7y\ b\u1ECF\ v\u00F9ng\ m\u1EE5c\ ti\u00EAu\ \u0111\u01B0\u1EE3c\ ch\u1ECDn\ c\u0169\ v\u00E0\ b\u00E0n\ giao\ quy\u1EC1n\ x\u1EED\ l\u00FD\ l\u01B0\u1EE3t\ cho\ h\u1EC7\ th\u1ED1ng\ World.\r\n
+numComments=4
