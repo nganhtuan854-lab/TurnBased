@@ -9,8 +9,8 @@ import java.util.List;
 public class Hero extends Actor
 {
     // --- Các thuộc tính chỉ số nền tảng của nhân vật ---
-    private int hp = 500;           // Sinh lực hiện tại
-    private int maxHp = 500;        // Ngưỡng sinh lực tối đa động (phục vụ tính tỷ lệ hiển thị UI)
+    private int hp = 400;           // Sinh lực hiện tại
+    private int maxHp = 400;        // Ngưỡng sinh lực tối đa động (phục vụ tính tỷ lệ hiển thị UI)
     private int atk = 25;           // Chỉ số sát thương vật lý cơ bản
     private int parryRate = 20;     // Tỷ lệ phần trăm kích hoạt phản đòn khi bị tấn công (20%)
     private int binhMau = 2;        // Số lượng vật phẩm tiêu hao khả dụng trong một màn chơi
@@ -37,8 +37,6 @@ public class Hero extends Actor
     public Hero() {
         // Nạp file ảnh asset đã được cấu hình trong thư mục dự án
         GreenfootImage img = new GreenfootImage("hero.png");
-        
-        // Tăng tỷ lệ kích thước lên gấp 3 lần để đảm bảo độ nét và cân đối không gian hình học
         img.scale(img.getWidth() * 6/25, img.getHeight() * 6/25);
         setImage(img);
     }
