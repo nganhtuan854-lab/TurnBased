@@ -8,13 +8,17 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MainMenu extends World
 {
-public MainMenu() {    
+    public MainMenu() {    
         super(1280, 720, 1); 
         
-        // Nạp ảnh nền hầm ngục Dungeon Kingdom fen gửi vào
-        setBackground("dungeon_bg.jpg"); 
+        // 1. Tạo đối tượng ảnh từ file
+        GreenfootImage bg = new GreenfootImage("dungeon_bg.jpg");
+        // 2. Scale nó cho bằng đúng kích thước World (1280x720)
+        bg.scale(1280, 720);
         
-        // Thả 3 cái nút đa năng vào đúng vị trí giữa màn hình
+        // 3. Set cái nền đã scale
+        setBackground(bg);
+        addObject(new Title(), 640, 250);
         addObject(new Button("NEW GAME"), 640, 350);
         addObject(new Button("LOAD GAME"), 640, 470);
         addObject(new Button("OFF"), 640, 590);
